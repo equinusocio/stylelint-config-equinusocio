@@ -21,7 +21,10 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "release": "git pull && standard-version"
+    "pub": "cross-var yarn publish --access public --new-version $npm_package_version",
+    "release:major": "git pull && standard-version --release-as major && git push --follow-tags && yarn pub",
+    "release:patch": "git pull && standard-version --release-as patch && git push --follow-tags && yarn pub",
+    "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags && yarn pub"
   },
   "dependencies": {
     "@lasalefamine/eslint-config-base": "0.2.4",
