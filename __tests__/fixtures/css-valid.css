@@ -1,0 +1,80 @@
+@import url('x.css');
+@import url('y.css');
+
+/**
+ * Multi-line comment
+ */
+
+.Selector-1,
+.Selector-2,
+.Selector-3[type='text'] {
+  --customProperty1: #fff;
+  --customProperty2: #000;
+
+  background: linear-gradient(#fff, rgba(0, 0, 0, 0.8));
+  box-sizing: border-box;
+  display: block;
+  color: #333;
+}
+
+.Selector-a,
+.Selector-b:not(:first-child) {
+  padding: 10px;
+  top: calc(calc(1em * 2) / 3);
+}
+
+.Selector-x {
+  width: 10%;
+}
+
+.Selector-y {
+  width: 20%;
+}
+
+.Selector-z {
+  width: 30%;
+}
+
+/* Single-line comment */
+
+@media (min-width >= 60em) {
+  & .Selector {
+
+    /* Flush to parent comment */
+    transform: translate(1, 1) scale(3);
+  }
+}
+@media (orientation: portrait), projection and (color) {
+  .Selector-i + .Selector-ii {
+    background: color(rgb(0, 0, 0) lightness(50%));
+    font-family: helvetica, 'arial black', sans-serif;
+  }
+}
+
+/* Flush single line comment */
+
+@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .Selector {
+    background-image:
+      repeating-linear-gradient(
+        -45deg,
+        transparent,
+        #fff 25px,
+        rgba(255, 255, 255, 1) 50px
+      );
+    margin: 10px;
+    margin-bottom: 5px;
+    box-shadow:
+      0 1px 1px #000,
+      0 1px 0 #fff,
+      2px 2px 1px 1px #ccc inset;
+    height: 10rem;
+  }
+
+  /* Flush nested single line comment */
+
+  .Selector::after {
+    content: '→';
+    background-image: url('x.svg');
+  }
+}
