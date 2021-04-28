@@ -45,6 +45,7 @@ module.exports = {
     'property-case': 'lower',
     'custom-property-empty-line-before': ['always', {
       except: ['after-custom-property', 'first-nested'],
+      ignore: ["after-comment"]
     }],
     'declaration-colon-newline-after': 'always-multi-line',
     'declaration-block-semicolon-newline-after': 'always',
@@ -59,6 +60,7 @@ module.exports = {
     'selector-list-comma-space-before': 'never',
     'rule-empty-line-before': ['always', {
       except: ['first-nested'],
+      ignore: ["after-comment"]
     }],
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
