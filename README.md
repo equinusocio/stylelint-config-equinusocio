@@ -1,7 +1,7 @@
 [![npm](https://img.shields.io/npm/v/stylelint-config-equinusocio.svg?style=flat)](https://www.npmjs.com/package/stylelint-config-equinusocio)
 
 
-# stylelint-config-equinusocio
+# Equinusocio's opinionated stylelint config
 
 > Opinionated Stylelint sharable config for Equinusocio's projects.
 
@@ -9,7 +9,7 @@
 ## Install
 
 ```sh
-yarn add --dev stylelint-config-equinusocio
+npm i -D stylelint-config-equinusocio
 ```
 
 ## Usage
