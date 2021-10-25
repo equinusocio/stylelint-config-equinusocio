@@ -1,6 +1,22 @@
 @import url('x.css');
 @import url('y.css');
 
+%IndeterminateMixin {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background:
+    linear-gradient(to right, var(--fillColor) 20%, transparent 30%) 0 0 / 100vw 100vw,
+    linear-gradient(to right, var(--fillColor) 30%, transparent 30%) 0 0 / 100vw 100vw var(--trackColor);
+  animation:
+    progress-stripes 2s linear infinite,
+    size 4s ease-in-out infinite;
+}
+
 /**
  * Multi-line comment
  */
@@ -15,6 +31,8 @@
   box-sizing: border-box;
   display: block;
   color: #333;
+
+  @extend %IndeterminateMixin;
 }
 
 .Selector-a,
