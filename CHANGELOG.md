@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/equinusocio/stylelint-config-equinusocio/compare/v1.0.5...v1.1.0) (2021-10-25)
+
+
+### Features
+
+* add [@extend](https://github.com/extend) to ignored at-rules ([2fa5ba5](https://github.com/equinusocio/stylelint-config-equinusocio/commit/2fa5ba54be41c013510cd9c1c805be777c87d5ab))
+
+
+### Bug Fixes
+
+* update deps ([a592732](https://github.com/equinusocio/stylelint-config-equinusocio/commit/a5927322431f1915d8e4f991343d95503f301f5c))
+
 ### [1.0.5](https://github.com/equinusocio/stylelint-config-equinusocio/compare/v1.0.4...v1.0.5) (2021-04-28)
 
 
