@@ -5,7 +5,6 @@ module.exports = {
     'declaration-no-important': true,
     'color-no-invalid-hex': true,
     'font-family-no-missing-generic-family-keyword': true,
-    'function-calc-no-invalid': true,
     'function-calc-no-unspaced-operator': true,
     'function-linear-gradient-no-nonstandard-direction': true,
     'property-no-unknown': null,
