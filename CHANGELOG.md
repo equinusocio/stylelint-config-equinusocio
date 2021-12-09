@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/equinusocio/stylelint-config-equinusocio/compare/v1.5.0...v1.5.1) (2021-12-09)
+
+
+### Bug Fixes
+
+* add percentage opacity value rule ([80d2936](https://github.com/equinusocio/stylelint-config-equinusocio/commit/80d29364ff789bfa72922bd5ddce43a670b5b45c))
+
 ## [1.5.0](https://github.com/equinusocio/stylelint-config-equinusocio/compare/v1.4.0...v1.5.0) (2021-12-09)
 
 
