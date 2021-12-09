@@ -27,7 +27,7 @@
     "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags"
   },
   "peerDependencies": {
-    "stylelint-config-standard": "24.0.0"
+    "stylelint-config-standard": "^24.0.0"
   },
   "devDependencies": {
     "@lasalefamine/eslint-config-base": "1.2.0",
