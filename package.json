@@ -24,7 +24,8 @@
     "pub": "cross-var yarn publish --access public --new-version $npm_package_version",
     "release:major": "git pull && standard-version --release-as major && git push --follow-tags",
     "release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
-    "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags"
+    "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags",
+    "update:deps": "yarn upgrade-interactive --latest && yarn upgrade"
   },
   "peerDependencies": {
     "stylelint-config-standard": "^24.0.0"
