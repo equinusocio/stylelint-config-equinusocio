@@ -16,6 +16,7 @@ module.exports = {
     'block-closing-brace-newline-after': 'always',
     'block-no-empty': true,
     'color-hex-alpha': "never",
+    'alpha-value-notation': "percentage",
     'color-no-invalid-hex': true,
     'comment-empty-line-before': 'always',
     'comment-whitespace-inside': 'always',
