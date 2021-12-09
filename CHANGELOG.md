@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/equinusocio/stylelint-config-equinusocio/compare/v1.1.0...v1.2.0) (2021-12-09)
+
+
+### Features
+
+* update deps ([3c86f40](https://github.com/equinusocio/stylelint-config-equinusocio/commit/3c86f40afb908cc85bfc6196ea8a654e86727b44))
+
 ## [1.1.0](https://github.com/equinusocio/stylelint-config-equinusocio/compare/v1.0.5...v1.1.0) (2021-10-25)
 
 
