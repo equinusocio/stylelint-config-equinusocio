@@ -521,10 +521,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@lasalefamine/eslint-config-base@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@lasalefamine/eslint-config-base/-/eslint-config-base-1.1.1.tgz#dd9c3add4ed8f91bfac04702d0bdeca3ed7a3856"
-  integrity sha512-KFq4gT2YiHHlFg4eIuvlhKrDrqEIeEu3us3gbIcyAuzfjUQ+h2v+OrBADGv7zNVFGRvT904IHcg7UNrbiwCAOA==
+"@lasalefamine/eslint-config-base@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@lasalefamine/eslint-config-base/-/eslint-config-base-1.2.0.tgz#e95edc0a4877511255f47fc001f23013f06d0385"
+  integrity sha512-UTeC3mrQldRaXcyWrRRt19mTQ8iXmdrP1XnbQ6j6gvE/uMdAPWMpPpJi9GPXaYSexhWWIWXrp0iN+Lt6seI8nA==
   dependencies:
     confusing-browser-globals "^1.0.10"
     object.assign "^4.1.2"
@@ -2102,7 +2102,7 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-cross-var@^1.1.0:
+cross-var@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/cross-var/-/cross-var-1.1.0.tgz#f0f0d4bb235d95138d1a539842d290f00db71cd6"
   integrity sha1-8PDUuyNdlRONGlOYQtKQ8A23HNY=
@@ -5047,18 +5047,6 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=
-
-stylelint-config-recommended@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-6.0.0.tgz#fd2523a322836005ad9bf473d3e5534719c09f9d"
-  integrity sha512-ZorSSdyMcxWpROYUvLEMm0vSZud2uB7tX1hzBZwvVY9SV/uly4AvvJPPhCcymZL3fcQhEQG5AELmrxWqtmzacw==
-
-stylelint-config-standard@24.0.0:
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-24.0.0.tgz#6823f207ab997ae0b641f9a636d007cc44d77541"
-  integrity sha512-+RtU7fbNT+VlNbdXJvnjc3USNPZRiRVp/d2DxOF/vBDDTi0kH5RX2Ny6errdtZJH3boO+bmqIYEllEmok4jiuw==
-  dependencies:
-    stylelint-config-recommended "^6.0.0"
 
 stylelint@14.1.0:
   version "14.1.0"

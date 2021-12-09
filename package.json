@@ -26,14 +26,14 @@
     "release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
     "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags"
   },
-  "dependencies": {
-    "@lasalefamine/eslint-config-base": "1.1.1",
+  "peerDependencies": {
     "stylelint-config-standard": "24.0.0"
   },
   "devDependencies": {
+    "@lasalefamine/eslint-config-base": "1.2.0",
     "@typescript-eslint/eslint-plugin": "5.6.0",
     "@typescript-eslint/parser": "5.6.0",
-    "cross-var": "^1.1.0",
+    "cross-var": "1.1.0",
     "eslint": "8.4.1",
     "eslint-plugin-import": "2.25.3",
     "jest": "27.4.3",
