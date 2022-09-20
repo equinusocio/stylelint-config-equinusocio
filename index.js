@@ -2,30 +2,30 @@ module.exports = {
   extends: 'stylelint-config-standard',
   rules: {
     'at-rule-empty-line-before': ['always', {
-      except: ['after-same-name']
+      except: ['after-same-name'],
     }],
     'at-rule-name-case': 'lower',
     'at-rule-name-space-after': 'always',
     'at-rule-no-unknown': [true, {
-      ignoreAtRules: ["mixin", "define-mixin", "extend", "@layer"]
+      ignoreAtRules: ['mixin', 'define-mixin', 'extend', '@layer'],
     }],
     'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-newline-after': 'always',
     'at-rule-semicolon-space-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'block-no-empty': true,
-    'color-hex-alpha': "never",
-    'alpha-value-notation': "percentage",
+    'color-hex-alpha': 'never',
+    'alpha-value-notation': 'percentage',
     'color-no-invalid-hex': true,
     'comment-empty-line-before': 'always',
     'comment-whitespace-inside': 'always',
     'custom-property-empty-line-before': ['always', {
       except: ['after-custom-property', 'first-nested'],
-      ignore: ["after-comment"]
+      ignore: ['after-comment'],
     }],
     'custom-property-no-missing-var-function': true,
     'declaration-block-no-duplicate-properties': [true, {
-      ignore: ['consecutive-duplicates-with-different-values']
+      ignore: ['consecutive-duplicates-with-different-values'],
     }],
     'declaration-block-semicolon-newline-after': 'always',
     'declaration-block-single-line-max-declarations': 0,
@@ -36,15 +36,14 @@ module.exports = {
     'font-family-no-missing-generic-family-keyword': true,
     'font-weight-notation': null,
     'function-calc-no-unspaced-operator': true,
-    'function-calc-no-unspaced-operator': true,
     'function-linear-gradient-no-nonstandard-direction': true,
     'function-url-quotes': ['always', {
-      except: ['empty']
+      except: ['empty'],
     }],
     'keyframe-declaration-no-important': true,
     'length-zero-no-unit': true,
     'max-empty-lines': [2, {
-      ignore: ['comments']
+      ignore: ['comments'],
     }],
     'max-nesting-depth': 2,
     'media-feature-colon-space-after': 'always',
@@ -66,11 +65,11 @@ module.exports = {
     'property-case': 'lower',
     'property-no-unknown': null,
     'property-no-vendor-prefix': [true, {
-      ignoreProperties: ['appearance']
+      ignoreProperties: ['appearance'],
     }],
     'rule-empty-line-before': ['always', {
       except: ['first-nested'],
-      ignore: ["after-comment"]
+      ignore: ['after-comment'],
     }],
     'selector-attribute-brackets-space-inside': null,
     'selector-attribute-quotes': 'always',
@@ -85,6 +84,6 @@ module.exports = {
     'string-quotes': 'single',
     'unit-case': 'lower',
     'value-list-max-empty-lines': 0,
-    'value-no-vendor-prefix': true
+    'value-no-vendor-prefix': true,
   },
 };
