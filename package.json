@@ -29,7 +29,7 @@
     "update:deps": "npx npm-update"
   },
   "peerDependencies": {
-    "stylelint-config-standard": "*"
+    "stylelint-config-standard": "^28.0.0"
   },
   "devDependencies": {
     "@lasalefamine/eslint-config-base": "2.0.7",
