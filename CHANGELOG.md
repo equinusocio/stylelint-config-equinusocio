@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.4](https://github.com/equinusocio/stylelint-config-equinusocio/compare/v1.6.3...v1.6.4) (2022-09-21)
+
+
+### Bug Fixes
+
+* at rule values ([cf3e277](https://github.com/equinusocio/stylelint-config-equinusocio/commit/cf3e2777bfa2907c064f717773b1af1ce75724ff))
+
 ### [1.6.3](https://github.com/equinusocio/stylelint-config-equinusocio/compare/v1.6.2...v1.6.3) (2022-09-20)
 
 
