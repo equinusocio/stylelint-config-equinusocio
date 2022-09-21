@@ -7,7 +7,7 @@ module.exports = {
     'at-rule-name-case': 'lower',
     'at-rule-name-space-after': 'always',
     'at-rule-no-unknown': [true, {
-      ignoreAtRules: ['mixin', 'define-mixin', 'extend', '@layer'],
+      ignoreAtRules: ['mixin', 'define-mixin', 'extend', 'layer'],
     }],
     'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-newline-after': 'always',
