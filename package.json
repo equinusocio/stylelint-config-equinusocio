@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-equinusocio",
-  "version": "1.6.4",
+  "version": "1.6.6",
   "description": "Stylelint configuration based on my experience and taste",
   "main": "index.js",
   "publishConfig": {},
@@ -24,8 +24,8 @@
     "test": "jest",
     "pub": "cross-var pnpm publish --access public",
     "release:major": "git pull && standard-version --release-as major && git push --follow-tags",
-    "release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
     "release:minor": "git pull && standard-version --release-as minor && git push --follow-tags",
+    "release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
     "update:deps": "npx npm-update"
   },
   "peerDependencies": {
