@@ -85,5 +85,9 @@ module.exports = {
     'unit-case': 'lower',
     'value-list-max-empty-lines': 0,
     'value-no-vendor-prefix': true,
+    "gamut/color-no-out-gamut-range": true,
+    "function-disallowed-list": ["rgba", "hsla", "rgb", "hsl"],
+    'color-function-notation': 'modern',
+    "color-no-hex": true
   },
 };
