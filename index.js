@@ -1,5 +1,6 @@
 module.exports = {
   extends: 'stylelint-config-standard',
+  plugins: ["stylelint-gamut"],
   rules: {
     'at-rule-empty-line-before': ['always', {
       except: ['after-same-name'],
