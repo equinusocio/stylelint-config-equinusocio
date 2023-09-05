@@ -27,21 +27,22 @@
   },
   "peerDependencies": {
     "stylelint-config-standard": ">=33.0.0",
-    "stylelint-gamut": ">=1.3.1"
+    "stylelint-gamut": ">=1.3.1",
+    "stylelint-stylistic": ">=0.4.3"
   },
   "devDependencies": {
-    "@changesets/cli": "2.26.1",
-    "@lasalefamine/eslint-config-base": "3.0.2",
-    "@typescript-eslint/eslint-plugin": "5.59.8",
-    "@typescript-eslint/parser": "5.59.8",
+    "@changesets/cli": "2.26.2",
+    "@lasalefamine/eslint-config-base": "3.0.3",
+    "@typescript-eslint/eslint-plugin": "6.6.0",
+    "@typescript-eslint/parser": "6.6.0",
     "cross-var": "1.1.0",
-    "eslint": "8.41.0",
-    "eslint-plugin-import": "2.27.5",
+    "eslint": "8.48.0",
+    "eslint-plugin-import": "2.28.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "standard-version": "9.5.0",
-    "stylelint": "15.6.2",
-    "stylelint-config-standard": ">=33.0.0",
-    "stylelint-gamut": "1.3.1",
-    "typescript": "5.0.4"
+    "stylelint": "15.10.3",
+    "stylelint-config-standard": ">=34.0.0",
+    "stylelint-gamut": ">=1.3.3",
+    "typescript": "5.2.2"
   }
 }
