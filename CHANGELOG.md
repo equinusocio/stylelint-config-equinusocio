@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.8.0
+
+### Minor Changes
+
+- 60edfdf: Update deps and restore stylistic rules
+
 ## 1.7.0
 
 ### Minor Changes
