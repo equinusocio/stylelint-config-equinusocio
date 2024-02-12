@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.8.2
+
+### Patch Changes
+
+- 5698702: Fix stylelint ver requirement
+
 ## 1.8.0
 
 ### Minor Changes
