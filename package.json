@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-equinusocio",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Stylelint configuration based on my experience and taste",
   "main": "index.js",
   "publishConfig": {},
@@ -26,7 +26,7 @@
     "update:deps": "npx npm-upgrade"
   },
   "peerDependencies": {
-    "stylelint": ">=16",
+    "stylelint": ">=15",
     "stylelint-config-standard": ">=36",
     "stylelint-gamut": "1.x.x",
     "stylelint-stylistic": ">=0.4.3"
