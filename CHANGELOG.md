@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.9.0
+
+### Minor Changes
+
+- update deps
+
+## 1.8.2
+
+### Patch Changes
+
+- update deps and package
+
+## 1.8.1
+
+### Patch Changes
+
+- b1bad2f: fix peer deps
+
 ## 1.8.0
 
 ### Minor Changes
