@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.10.1
+
+### Patch Changes
+
+- Clean deps
+
 ## 1.10.0
 
 ### Minor Changes
