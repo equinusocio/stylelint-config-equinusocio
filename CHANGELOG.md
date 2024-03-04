@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.11.1
+
+### Patch Changes
+
+- Fix rules
+
 ## 1.11.0
 
 ### Minor Changes
