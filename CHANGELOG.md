@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.0
+
+### Major Changes
+
+- 2629cfd: Requires stylelint 16.8.0 and @stylistic/stylelint-plugin v3
+
 ## 1.11.1
 
 ### Patch Changes

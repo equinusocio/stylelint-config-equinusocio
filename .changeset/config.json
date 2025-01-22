@@ -4,7 +4,7 @@
     "@changesets/cli/changelog",
     { "repo": "equinusocio/stylelint-config-equinusocio" }
   ],
-  "commit": false,
+  "commit": true,
   "fixed": [],
   "linked": [],
   "access": "public",
