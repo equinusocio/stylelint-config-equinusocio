@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.0.2
+
+### Patch Changes
+
+- Fix unknown rules
+
+## 2.0.1
+
+### Patch Changes
+
+- c041c56: Remove old plugins
+
 ## 2.0.0
 
 ### Major Changes

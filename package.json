@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-equinusocio",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Stylelint configuration based on my experience and taste",
   "main": "index.js",
   "publishConfig": {},

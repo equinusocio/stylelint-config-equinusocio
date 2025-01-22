@@ -168,7 +168,6 @@ module.exports = {
     'selector-class-pattern': '[A-Z][A-Za-z0-9_-]+',
     'selector-pseudo-element-no-unknown': true,
     'value-no-vendor-prefix': true,
-    'gamut/color-no-out-gamut-range': true,
     'function-disallowed-list': ['rgba', 'hsla', 'rgb', 'hsl'],
     'color-function-notation': 'modern',
     'color-no-hex': true,
